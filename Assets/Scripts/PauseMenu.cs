@@ -6,7 +6,7 @@ using UnityEngine.Audio;
 
 public class PauseMenu : MonoBehaviour
 {
-    public AudioMixer audioMixer;
+    public AudioMixer audiooMixer;
     
     public static bool GamePause = false;
     public GameObject PauseMenuUI;
@@ -52,6 +52,6 @@ public class PauseMenu : MonoBehaviour
     }
 
     public void VolumeisSet(float vol){
-       audioMixer.SetFloat("VolumePara",vol);
+       audiooMixer.SetFloat("VolumePara",vol);
     }
 }
